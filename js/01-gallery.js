@@ -20,8 +20,6 @@ const createGallery = (el) => {
     .join("");
 };
 
-// console.log(galleryItems);
-
 const photosMarkup = createGallery(galleryItems);
 galleryList.insertAdjacentHTML("beforeend", photosMarkup);
 
